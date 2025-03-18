@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.dashboard-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.role-selector {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+}
+
+.bug-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bug-form input,
+.bug-form textarea,
+.bug-form select,
+.bug-form button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.bug-form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.bug-form button:hover {
+  background-color: #0056b3;
+}
+
+.bug-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bug-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.bug-card h3 {
+  margin: 10px 0;
+}
+
+.bug-card p {
+  margin: 5px 0;
+}
+
+.bug-card button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.bug-card button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.bug-card button:first-child:hover {
+  background-color: #218838;
+}
+
+.bug-card button:nth-child(2) {
+  background-color: #ffc107;
+  color: black;
+}
+
+.bug-card button:nth-child(2):hover {
+  background-color: #e0a800;
+}
+
+.bug-card button:nth-child(3) {
+  background-color: #dc3545;
+  color: white;
+}
+
+.bug-card button:nth-child(3):hover {
+  background-color: #c82333;
+}
