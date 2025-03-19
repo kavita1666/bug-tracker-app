@@ -33,7 +33,7 @@ The Bug/Task Tracker Interface is a web application designed to manage software 
 
 ## Technology Stack
 
-- **Frontend**: React.js
+- **Frontend**: React.js + vite
 - **State Management**: useContext
 - **Styling**: CSS, Styled-Components
 
