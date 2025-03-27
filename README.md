@@ -4,6 +4,8 @@
 
 The Bug/Task Tracker Interface is a web application designed to manage software development tasks efficiently. Built using React.js, this application streamlines task tracking, bug reporting, and time management with role-based access control for developers and managers.
 
+link to site: https://bug-tracker-kavita.netlify.app/
+
 ## Features
 
 ### User Authentication & Roles
